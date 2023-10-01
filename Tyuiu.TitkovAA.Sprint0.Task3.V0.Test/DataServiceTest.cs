@@ -9,7 +9,7 @@ namespace Tyuiu.TitkovAA.Sprint0.Task3.V0.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ChekedValid()
         {
             Assert.AreEqual(10, DataService.Sum(5, 5));
         }
